@@ -61,10 +61,8 @@ async def bogo(ctx, arg):
     await ent.send()
 
 @bot.command()
-async def show(ctx)
-    
-
-
+async def show(ctx):
+    pass
 
 if __name__ == "__main__":
     token = open("discord.token", "r").read()
